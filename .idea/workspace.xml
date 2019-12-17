@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5250ec26-e280-4f9b-9474-e8ed9a5b9d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/inter/DatabaseInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abst/AbstractDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abst/AbstractDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
-    </list>
+    <list default="true" id="5250ec26-e280-4f9b-9474-e8ed9a5b9d39" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <workItem from="1575541519610" duration="1515000" />
       <workItem from="1575549271319" duration="5000" />
       <workItem from="1576559192867" duration="14616000" />
-      <workItem from="1576580771615" duration="1569000" />
+      <workItem from="1576580771615" duration="1860000" />
     </task>
     <servers />
   </component>
