@@ -1,13 +1,14 @@
 package database;
 
 import abst.AbstractDatabase;
+import inter.DatabaseInter;
 import util.User;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Database extends AbstractDatabase<User> {
+public class Database extends AbstractDatabase implements DatabaseInter<User> {
 
     @Override
     public  List<User> getAll() throws Exception {

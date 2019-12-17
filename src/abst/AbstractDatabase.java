@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.List;
 
-public abstract class AbstractDatabase<T> {
+public abstract class AbstractDatabase {
     protected static Connection connect() throws Exception{
         Class.forName("com.mysql.jdbc.Driver");// Classi load edir
         String  url = "jdbc:mysql://localhost:3306/filemansys?serverTimezone=UTC";
@@ -14,13 +14,4 @@ public abstract class AbstractDatabase<T> {
         return connection;
     }
 
-    public abstract List<T> getAll() throws Exception ;
-
-    public abstract List<T> getAllByPS() throws Exception;
-
-    public abstract boolean update(T obj) throws Exception;
-
-    public abstract int insert(T obj) throws Exception;
-
-    public abstract int delete(int id) throws Exception;
 }
