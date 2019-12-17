@@ -1,16 +1,16 @@
-import java.util.List;
+import database.Database;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
-//        List<User> List = Database.getAllUser();
+//        List<util.User> List = database.Database.getAllUser();
 //        System.out.println(List);
 //
-//        Database.update(new User("Sahil",1));
+//        database.Database.update(new util.User("Sahil",1));
 //
 //        System.out.println(List);
 
-//        Database.insert(new User("Semed","Eliyev"));
+//        database.Database.insert(new util.User("Semed","Eliyev"));
         Database.delete(7);
 
     }

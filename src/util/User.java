@@ -1,3 +1,5 @@
+package util;
+
 public class User {
     private  String name;
     private String surname;
@@ -42,7 +44,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "util.User{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", id=" + id +

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5250ec26-e280-4f9b-9474-e8ed9a5b9d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abst/AbstractDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +99,8 @@
       <updated>1575541518195</updated>
       <workItem from="1575541519610" duration="1515000" />
       <workItem from="1575549271319" duration="5000" />
-      <workItem from="1576559192867" duration="14513000" />
+      <workItem from="1576559192867" duration="14616000" />
+      <workItem from="1576580771615" duration="1034000" />
     </task>
     <servers />
   </component>
@@ -115,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
