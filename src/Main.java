@@ -1,17 +1,19 @@
 import database.Database;
+import util.User;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        Database db = new Database();
+        List<User> list = db.getAll();
+        System.out.println(list);
 
-//        List<util.User> List = database.Database.getAllUser();
-//        System.out.println(List);
-//
-//        database.Database.update(new util.User("Sahil",1));
-//
-//        System.out.println(List);
-
-//        database.Database.insert(new util.User("Semed","Eliyev"));
-        Database.delete(7);
+        db.delete(7);
+        list = db.getAll();
+        System.out.println(list);
 
     }
 }
